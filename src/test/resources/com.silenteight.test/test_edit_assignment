@@ -1,0 +1,11 @@
+Feature: Test edit assignment
+
+  @selenium
+  Scenario: Create decision with all batches
+    Given Opened browser
+    And Logged to Silenteight application
+    When Create new decision tree
+    #And I added all batches
+    #And I saved the decision
+    #Then I open saved decision
+    #And Check all batches are added
